@@ -10,7 +10,7 @@
 
 			if ($('#ctn-preloader').hasClass('loaded')) {
 				// Es para que una vez que se haya ido el preloader se elimine toda la seccion preloader
-				$('#preloader').delay(900).queue(function () {
+				$('#preloader').delay(400).queue(function () {
 					$(this).remove();
 				});
 			}
@@ -177,8 +177,10 @@
 		// filter items on button click
 		$('.popular-menu__filter').on('click', 'button', function () {
 			var filterValue = $(this).attr('data-filter');
+			console.log(filterValue)
 			$grid.isotope({ filter: filterValue });
 		});
+
 
 	});
 

@@ -1,13 +1,5 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
-// import Head from 'next/head';
-// import Navbar from '../components/organisms/Navbar';
-// import MainBanner from '../components/organisms/MainBanner';
-// import TransactionStep from '../components/organisms/TransactionStep';
-// import FeaturedGame from '../components/organisms/FeaturedGame';
-// import Reached from '../components/organisms/Reached';
-// import Story from '../components/organisms/Story';
-// import Footer from '../components/organisms/Footer';
 
 export default function Home() {
   useEffect(() => {
@@ -74,8 +66,8 @@ export default function Home() {
                                             <li><a href="home-3.html">Home 03</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="menu.html">Menu</a></li>
+                                    <li><a href="about">About</a></li>
+                                    <li><a href="menu">Menu</a></li>
                                     <li><a href="reservation.html">Reservation</a></li>
                                 </ul>
                             </nav>
@@ -158,7 +150,7 @@ export default function Home() {
                                         </ul>
                                     </li>
                                     <li><a href="about.html">About</a></li>
-                                    <li><a href="menu.html">Menu</a></li>
+                                    <li><a href="menu">Menu</a></li>
                                     <li><a href="reservation.html">Reservation</a></li>
                                     <li><a href="#0">pages</a>
                                         <ul className="sub-menu">
@@ -945,22 +937,7 @@ export default function Home() {
         </section>
         {/* reservation area end */}
     </main>
-      <script src="assets/js/jquery-2.2.4.min.js" />
-      <script src="assets/js/bootstrap.bundle.min.js" />
-      <script src="assets/js/jquery.meanmenu.min.js" />
-      <script src="assets/js/jquery.nice-select.min.js" />
-      <script src="assets/js/lightcase.js" />
-      <script src="assets/js/owl.carousel.min.js" />
-      <script src="assets/js/tilt.jquery.min.js" />
-      <script src="assets/js/wow.min.js" />
-      <script src="assets/js/jquery.easing.min.js" />
-      <script src="assets/js/scrollwatch.js" />
-      <script src="assets/js/sticky-header.js" />
-      <script src="assets/js/imagesloaded.pkgd.min.js" />
-      <script src="assets/js/isotope.pkgd.min.js" />
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfpGBFn5yRPvJrvAKoGIdj1O1aO9QisgQ" />
-      <script src="assets/js/jquery-ui-slider-range.js" />
-      <script src="assets/js/main.js" />
+   
     
     </>
     
